@@ -221,7 +221,7 @@ a {
           transform: translateY(-500px);
   -webkit-transition: 800ms;
   transition: 800ms;
-  z-index: 5;
+  z-index: 7;
   width: 500px;
   height: 100vw;
   background-color: #181a1a;
@@ -233,7 +233,7 @@ a {
 }
 
 .modal__list {
-  width: 200px;
+  width: 40%;
   margin: 20px auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -900,24 +900,28 @@ a {
   color: rgba(0, 0, 0, 0.904);
 }
 
-.contact .blur {
+.contact__video {
+  position: relative;
+}
+
+.contact__video .blur {
   position: absolute;
   width: 100%;
-  height: 780px;
+  height: 100%;
   background-color: rgba(255, 255, 255, 0.438);
 }
 
-.contact .video__text {
+.contact__video .video__text {
   font-size: 65px;
   font-weight: 700;
   color: #00524e;
   position: absolute;
   z-index: 5;
-  top: 600px;
+  top: 40%;
   left: 140px;
 }
 
-.contact .video {
+.contact__video .video {
   width: 100%;
   height: 100%;
 }
@@ -929,15 +933,9 @@ a {
   .contact__context {
     font-size: 25px;
   }
-  .contact .blur {
-    height: 617px;
-  }
 }
 
 @media (max-width: 940px) {
-  .contact .blur {
-    height: 617px;
-  }
   .contact__context {
     font-size: 20px;
   }
@@ -947,11 +945,9 @@ a {
 }
 
 @media (max-width: 800px) {
-  .contact .video__text {
+  .contact__video .video__text {
     left: 60px;
-  }
-  .contact .blur {
-    height: 445px;
+    top: 20%;
   }
   .contact__context {
     font-size: 16px;
@@ -963,11 +959,9 @@ a {
 }
 
 @media (max-width: 650px) {
-  .contact .video__text {
+  .contact__video .video__text {
     left: 60px;
-  }
-  .contact .blur {
-    height: 362px;
+    font-size: 45px;
   }
   .contact__context {
     font-size: 14px;
@@ -979,19 +973,17 @@ a {
 }
 
 @media (max-width: 500px) {
-  .contact .video__text {
+  .contact__video .video__text {
     left: 38px;
-    top: 512px;
+    font-size: 38px;
   }
   .contact__context {
-    font-size: 11px;
+    font-size: 16px;
+    width: 80%;
   }
   .contact__context i {
     font-size: 20px;
     margin-right: 10px;
-  }
-  .contact .blur {
-    height: 278px;
   }
 }
 
@@ -1007,5 +999,11 @@ a {
 
 .footer p span {
   color: crimson;
+}
+
+@media (max-width: 500px) {
+  .footer {
+    font-size: 10px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

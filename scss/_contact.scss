@@ -53,12 +53,16 @@
 
   // width: 1138px;
   // height: 640px;
+}
+
+.contact__video {
+  position: relative;
 
   .blur {
     position: absolute;
     // left: 5px;
     width: 100%;
-    height: 780px;
+    height: 100%;
     background-color: rgba(255, 255, 255, 0.438);
   }
 
@@ -68,7 +72,7 @@
     color: #00524e;
     position: absolute;
     z-index: 5;
-    top: 600px;
+    top: 40%;
     left: 140px;
   }
 
@@ -90,17 +94,17 @@
   .contact__context {
     font-size: 25px;
   }
-  .contact .blur {
-    height: 617px;
-  }
+  // .contact .blur {
+  //   height: 617px;
+  // }
 }
 @media (max-width: 940px) {
   // .contact .video__text {
   //   left: 7px;
   // }
-  .contact .blur {
-    height: 617px;
-  }
+  // .contact .blur {
+  //   height: 617px;
+  // }
   .contact__context {
     font-size: 20px;
     i {
@@ -109,12 +113,14 @@
   }
 }
 @media (max-width: 800px) {
-  .contact .video__text {
+  .contact__video .video__text {
     left: 60px;
+    // transform: translateY(-10%);
+    top: 20%;
   }
-  .contact .blur {
-    height: 445px;
-  }
+  // .contact .blur {
+  //   height: 445px;
+  // }
   .contact__context {
     font-size: 16px;
     i {
@@ -124,12 +130,13 @@
   }
 }
 @media (max-width: 650px) {
-  .contact .video__text {
+  .contact__video .video__text {
     left: 60px;
+    font-size: 45px;
   }
-  .contact .blur {
-    height: 362px;
-  }
+  // .contact .blur {
+  //   height: 362px;
+  // }
   .contact__context {
     font-size: 14px;
     i {
@@ -139,19 +146,21 @@
   }
 }
 @media (max-width: 500px) {
-  .contact .video__text {
+  .contact__video .video__text {
     left: 38px;
-    top: 512px;
+    // top: 512px;
+    font-size: 38px;
   }
   .contact__context {
-    font-size: 11px;
+    font-size: 16px;
+    width: 80%;
     i {
       font-size: 20px;
       margin-right: 10px;
     }
   }
 
-  .contact .blur {
-    height: 278px;
-  }
+  // .contact .blur {
+  //   height: 278px;
+  // }
 }
