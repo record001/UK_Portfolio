@@ -1,0 +1,157 @@
+.contact {
+  transition: 500ms;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  position: relative;
+  // background-color: #1B1F1F;
+
+  &__title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    // padding-bottom: 20px;
+  }
+
+  &__context {
+    text-align: start;
+    width: 45%;
+    margin: 0 auto;
+    font-size: 30px;
+    li {
+      margin-bottom: 10px;
+    }
+    i {
+      font-size: 35px;
+      margin-right: 50px;
+      display: inline-block;
+      width: 43px;
+      height: 35px;
+      color: rgba(0, 0, 0, 0.781);
+    }
+  }
+  &__follow {
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0;
+  }
+  &__social {
+    text-align: center;
+    margin-bottom: 20px;
+    a {
+      margin-right: 10px;
+    }
+    i {
+      font-size: 40px;
+      color: rgba(0, 0, 0, 0.473);
+      &:hover {
+        transition: 800ms;
+        color: rgba(0, 0, 0, 0.904);
+      }
+    }
+  }
+
+  // width: 1138px;
+  // height: 640px;
+
+  .blur {
+    position: absolute;
+    // left: 5px;
+    width: 100%;
+    height: 780px;
+    background-color: rgba(255, 255, 255, 0.438);
+  }
+
+  .video__text {
+    font-size: 65px;
+    font-weight: 700;
+    color: #00524e;
+    position: absolute;
+    z-index: 5;
+    top: 600px;
+    left: 140px;
+  }
+
+  .video {
+    width: 100%;
+    height: 100%;
+
+    // position: relative;
+    // z-index: -1;
+  }
+}
+
+// madia
+
+@media (max-width: 1100px) {
+  .contact .video__text {
+    left: 7px;
+  }
+  .contact__context {
+    font-size: 25px;
+  }
+  .contact .blur {
+    height: 617px;
+  }
+}
+@media (max-width: 940px) {
+  // .contact .video__text {
+  //   left: 7px;
+  // }
+  .contact .blur {
+    height: 617px;
+  }
+  .contact__context {
+    font-size: 20px;
+    i {
+      font-size: 30px;
+    }
+  }
+}
+@media (max-width: 800px) {
+  .contact .video__text {
+    left: 60px;
+  }
+  .contact .blur {
+    height: 445px;
+  }
+  .contact__context {
+    font-size: 16px;
+    i {
+      font-size: 25px;
+      margin-right: 30px;
+    }
+  }
+}
+@media (max-width: 650px) {
+  .contact .video__text {
+    left: 60px;
+  }
+  .contact .blur {
+    height: 362px;
+  }
+  .contact__context {
+    font-size: 14px;
+    i {
+      font-size: 20px;
+      margin-right: 10px;
+    }
+  }
+}
+@media (max-width: 500px) {
+  .contact .video__text {
+    left: 38px;
+    top: 512px;
+  }
+  .contact__context {
+    font-size: 11px;
+    i {
+      font-size: 20px;
+      margin-right: 10px;
+    }
+  }
+
+  .contact .blur {
+    height: 278px;
+  }
+}
