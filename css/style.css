@@ -334,7 +334,7 @@ a {
   position: relative;
   padding-top: 150px;
   padding-bottom: 50px;
-  background: url(/images/3.jpg) no-repeat center/cover;
+  background: url(../images/3.jpg) no-repeat center/cover;
 }
 
 .header::after {
@@ -690,6 +690,8 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  overflow: hidden;
+  padding: 0 20px;
 }
 
 .project__wrapper .item {
@@ -705,27 +707,27 @@ a {
 }
 
 .project__wrapper .item:nth-child(1) {
-  background: url(/images/coffee.png) no-repeat center center/cover;
+  background: url(../images/coffee.png) no-repeat center center/cover;
 }
 
 .project__wrapper .item:nth-child(2) {
-  background: url(/images/scoot.png) no-repeat center center/cover;
+  background: url(../images/scoot.png) no-repeat center center/cover;
 }
 
 .project__wrapper .item:nth-child(3) {
-  background: url(/images/tasmim.png) no-repeat center center/cover;
+  background: url(../images/tasmim.png) no-repeat center center/cover;
 }
 
 .project__wrapper .item:nth-child(4) {
-  background: url(/images/pixel.png) no-repeat center center/cover;
+  background: url(../images/pixel.png) no-repeat center center/cover;
 }
 
 .project__wrapper .item:nth-child(5) {
-  background: url(/images/namangan.png) no-repeat center center/cover;
+  background: url(../images/namangan.png) no-repeat center center/cover;
 }
 
 .project__wrapper .item:nth-child(6) {
-  background: url(/images/street77.png) no-repeat center center/cover;
+  background: url(../images/street77.png) no-repeat center center/cover;
 }
 
 .project__wrapper .card {

@@ -1,4 +1,5 @@
 .project {
+
   background-color: rgb(17, 17, 17);
   // background: url(/images/6.jpg) no-repeat center center /cover;
   padding: 50px 0;
@@ -18,6 +19,9 @@
     grid-template-columns: 30% 30% 30%;
     gap: 25px;
     justify-content: center;
+    overflow: hidden;
+    padding: 0 20px;
+
 
     .item {
       display: block;
@@ -31,26 +35,27 @@
       box-shadow: 0px 0px 10px #fff;
 
     margin: 0 auto;
+    // margin-bottom: 10px;
 
 
      
       &:nth-child(1) {
-        background: url(/images/coffee.png) no-repeat center center / cover;
+        background: url(../images/coffee.png) no-repeat center center / cover;
       }
       &:nth-child(2) {
-        background: url(/images/scoot.png) no-repeat center center / cover;
+        background: url(../images/scoot.png) no-repeat center center / cover;
       }
       &:nth-child(3) {
-        background: url(/images/tasmim.png) no-repeat center center / cover;
+        background: url(../images/tasmim.png) no-repeat center center / cover;
       }
       &:nth-child(4) {
-        background: url(/images/pixel.png) no-repeat center center / cover;
+        background: url(../images/pixel.png) no-repeat center center / cover;
       }
       &:nth-child(5) {
-        background: url(/images/namangan.png) no-repeat center center / cover;
+        background: url(../images/namangan.png) no-repeat center center / cover;
       }
       &:nth-child(6) {
-        background: url(/images/street77.png) no-repeat center center / cover;
+        background: url(../images/street77.png) no-repeat center center / cover;
       }
     }
 
