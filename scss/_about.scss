@@ -1,4 +1,5 @@
 .about {
+  overflow: hidden;
   background: url(/images/14.jpg) no-repeat center / cover;
   &__body {
     padding: 60px 0;
@@ -31,6 +32,7 @@
 
   &__right {
     width: 520px;
+    padding: 0 20px;
     h2 {
       font-size: 50px;
       font-weight: 600;
@@ -157,6 +159,7 @@
     margin-top: 20px;
     text-align: center;
     width: 410px;
+    
   }
   .about__right h2 {
     font-size: 36px;
