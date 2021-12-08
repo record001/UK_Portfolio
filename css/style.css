@@ -217,14 +217,17 @@ a {
 
 .modal {
   position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  bottom: 0;
   display: none;
-  -webkit-transform: translateY(-500px);
-          transform: translateY(-500px);
+  -webkit-transform: translateY(-1000px);
+          transform: translateY(-1000px);
   -webkit-transition: 800ms;
   transition: 800ms;
   z-index: 7;
   width: 100vw;
-  height: 100vw;
   background-color: #181a1a;
 }
 
@@ -270,6 +273,10 @@ a {
   font-weight: 500;
   -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
+}
+
+.modal__link:hover {
+  color: rgba(255, 255, 255, 0.616);
 }
 
 .burger {

@@ -64,12 +64,18 @@
 
 .modal {
   position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  bottom: 0;
+
+
   display: none;
-  transform: translateY(-500px);
+  transform: translateY(-1000px);
   transition: 800ms;
   z-index: 7;
   width: 100vw;
-  height: 100vw;
+  // height: 100vw;
   background-color: rgb(24, 26, 26);
   &.active {
     transform: translateY(0px);
@@ -101,6 +107,9 @@
     font-size: 24px;
     font-weight: 500;
     transition: color 0.3s ease;
+    &:hover {
+      color: rgba(255, 255, 255, 0.616);
+    }
   }
 }
 
